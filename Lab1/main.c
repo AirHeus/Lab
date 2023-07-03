@@ -8,10 +8,10 @@ int main() {
     scanf("%d %d %d", &t1, &t2, &t3);
 
     // Calculate the sum of time
-    total_time = t1 + t2 + t3;
+    total_time = (t1 + t2 + t3)/3;
 
     // Round to 2 decimal places
-    total_time = (int)(total_time * 100 + 0.5) / 100.0;
+    total_time = (int)(total_time ) / 3.0;
 
     // Displaying the result
     printf("%.2f\n", total_time);
